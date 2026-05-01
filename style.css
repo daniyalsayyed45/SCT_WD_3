@@ -1,0 +1,47 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  background: #333;
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #555;
+}
+
+.answer {
+  display: block;
+  margin: 8px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.answer:hover {
+  background: #eee;
+}
+
+.hidden {
+  display: none;
+}
